@@ -11,7 +11,7 @@ class AIanswer():
     def __init__(self):
         self.PostJson={"messages": [],"model": "gpt-3.5-turbo","stream": True}
         self.URL="http://127.0.0.1:8000/v1/chat/completions"
-        self.ApiKey="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"
+        self.ApiKey="你的api"
         self.Header={"Content-Type": "application/json","Authorization": "Bearer "+self.ApiKey}
 
         self.StopSign=False
